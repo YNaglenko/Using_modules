@@ -10,4 +10,4 @@ class Student(Human):
     def __str__(self):
         return "Student: " + super().__str__() + ", university = {}, faculty = {}".format(self.university, self.faculty)
 
-#1
+#1123
