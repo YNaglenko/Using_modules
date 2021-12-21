@@ -8,4 +8,6 @@ class Human:
     def __str__(self):
         return "name = {}, surname = {}, age = {}, gender = {}".format(self.name, self.surname, self.age,
                                                                        self.gender)
-
+    #Tests
+    if __name__ == "__main__":
+        test_human
